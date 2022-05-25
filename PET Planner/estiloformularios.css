@@ -1,0 +1,167 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #E7DBF6;
+    overflow-x: hidden;
+    /*padding-top: 20px;*/
+}
+
+.text-center img{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    }
+
+.rounded img{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+.button-login{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.button-login button{
+    justify-content: center;
+    background-color: #38B6FF;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    border: #38B6FF;
+}
+
+.button-login a{
+    text-decoration: none;
+    text-decoration-color: #ffff;
+    color: #ffff;
+}
+
+.main {
+    padding: 0px 0px;
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 50%; 
+    }
+
+    .sidenav{
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+.cadastro-titulo{
+    background-color: #BB86FC;
+    width: 100%;
+    height: 150px;
+    padding: 0% !important;
+}
+
+.text-titulo h2{
+    color: #FFF;
+    text-align: center;
+    padding: 7%;
+    font-size: 40px;
+    /*margin-bottom: 30px;*/
+}
+
+
+.login-main-text{
+    padding: 10px;
+    text-align: center;
+}
+
+.login-main-text h2{
+    font-weight: 700;
+    color: #38B6FF;
+}
+
+
+.login-main-text p{
+    color: #BB86FC;
+}
+
+.btn-lg{
+    background-color: #BB86FC !important;
+    color: #fff;
+    border: #fff;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-top: 1px;
+}
+
+.btn-lg a{
+    text-decoration: none;
+    text-decoration-color: #ffff;
+    color: #ffff;
+}
+
+.form-group{
+    margin-left: 50%;
+    width: 100%;
+}
+
+.form-group label{
+    color: #8F8E8E;
+    font-size: 12px;
+}
+
+.esqueci-senha p{
+    color: #8F8E8E;
+    font-size: 15px;
+    text-align: center;
+}
+
+.esqueci-senha a{
+    color: #8F8E8E;
+    text-decoration: none;
+    text-decoration-color: #8F8E8E;
+}
+
+.form-group a{
+    text-decoration: none;
+    text-decoration-color: #8F8E8E;
+}
+
+.form-group select{
+    color: #8F8E8E;
+    font-size: 15px;
+}

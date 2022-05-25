@@ -1,0 +1,35 @@
+body{
+    background-color: #BB86FC;
+}
+.text-center img{
+margin: 10px;
+width: 250px;
+height: 250px;
+}
+/*#FFFFFF*/
+.texto p{
+    color: #FFFF;
+    text-align: center;
+    font-size: 52px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.botoes_acesso{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.botoes_acesso button{
+    justify-content: center;
+    background-color: #FFFF;
+    color: #BB86FC;
+    text-align: center;
+    font-size: 22px;
+    border: #FFFF;
+}
+
+.botoes_acesso a{
+    text-decoration: none;
+    text-decoration-color: #BB86FC;
+    color: #BB86FC;
+}
